@@ -1,8 +1,3 @@
----
-title: Morse Code user guide
-tags: []
----
-
 ### Morse Code Translator
 Coding a very simple Morse Code translator by Python.
 
