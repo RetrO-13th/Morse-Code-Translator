@@ -88,7 +88,7 @@ class Morse_to_ENG:
         return ''.join(translated_sentence).capitalize()
 
     def get_morse_sentence(self):
-        print('\nNotice: "Space" betweee every morse code and "^" between every word. You are not allow to use underline, dot, slash etc.')
+        print('\nNotice: Type "Space" betweee every morse code and "^" between every word. You are not allow to use underline, dot, slash etc.')
         text = input('Enter your morse code sentence: ').split()
 
         return text
