@@ -1,4 +1,4 @@
-# RetrO_13th (Sadra Ghoalmi)
+# RetrO_13th (Sadra Gholami)
 
 from MorseTranslator import Eng_to_Morse
 from MorseTranslator import Morse_to_ENG
