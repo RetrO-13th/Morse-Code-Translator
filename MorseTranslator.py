@@ -82,7 +82,7 @@ class Morse_to_ENG:
             elif letter == '-----':
                 translated_sentence.append('0')
             elif letter in ['_', '-', '.' '/', '*']:
-                assert EOFError
+                pass
 
 
         return ''.join(translated_sentence).capitalize()
@@ -176,7 +176,7 @@ class Eng_to_Morse:
                     elif letter == '0':
                         word.append('-----')
                     elif letter in ['_', '-', '.' '/', '*']:
-                        assert EOFError
+                        pass
 
             transelated_sentence.append(' '.join(word))
 
